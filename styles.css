@@ -28,6 +28,9 @@ header {
     color: rgba(255, 255, 255, 0.7);
     backdrop-filter: blur(30px); /* Glassy effect */
 }
+header h1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
 
 .headerDiv {
     width: 40%;
@@ -42,6 +45,8 @@ header {
     justify-content: center;
     align-items: center;
     background: rgba(255, 255, 255, 0.19); /* Semi-transparent white */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
     padding: 0.5rem;
     border-radius: 1.6rem;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); /* Elevated shadow */
@@ -58,6 +63,8 @@ header {
     font-size: 1rem;
     background: rgba(255, 255, 255, 0.2); /* More opaque white */
     color: rgba(255, 255, 255, 0.728);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
     box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.2); /* Inset shadow */
 }
 
@@ -76,6 +83,8 @@ header {
     border-radius: 20px;
     background: rgba(255, 255, 255, 0.142); /* Semi-transparent white */
     color: rgba(255, 255, 255, 0.7);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
     border: none;
     cursor: pointer;
     font-size: 1rem;
@@ -94,26 +103,42 @@ header {
     align-items: center;
 }
 
+.f1 .f1-column{
+
+    height: 90%;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+
 .f1 .mark-copy {
-    height: 80%;
-    width: 14%;
+  
+    height: 90%;
+    width: 28%;
     background: rgba(255, 255, 255, 0.05); /* Semi-transparent white */
     border-radius: 1.2rem;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 1rem;
-    transition: transform 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Transition added for smooth scaling */
     backdrop-filter: blur(10px); /* Glassy effect */
 }
 
 .mark-copy:hover {
-    transform: translateY(-5px); 
+    transform: scale(1.05); /* Expands the element by 10% in all directions */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhances shadow to match the expansion */
 }
+
 
 .mark-copy .head {
     height: 25%;
     display: flex;
     align-items: center;
     font-weight: 500;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
     color: rgba(255, 255, 255, 0.7)
 }
 
@@ -121,6 +146,8 @@ header {
     height: 50%;
     display: flex;
     align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
     font-size: 1.5rem;
     color: rgba(255, 255, 255, 0.9)
 }
@@ -130,6 +157,8 @@ header {
     display: flex;
     align-items: center;
     font-size: 0.9rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
     color: rgba(255, 255, 255, 0.7); /* Slightly transparent white */
 }
 
@@ -185,12 +214,16 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: rgba(255, 255, 255, 0.7)
+    color: rgba(255, 255, 255, 0.7);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
 }
 
 .hour-weather-003 .mid {
     height: 60%;
     padding: .5rem;
+    /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+
     /* color: #ffffff; White text */
 }
 
@@ -198,6 +231,8 @@ header {
     height: 20%;
     width: 90%;
     color: rgba(255, 255, 255, 0.7); /* Slightly transparent white */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -232,6 +267,8 @@ header {
     align-items: center;
     font-weight: 600;
     color: rgba(255, 255, 255, 0.8);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
     font-size: 1.2rem;
 }
 
@@ -254,6 +291,8 @@ header {
 
 .f2 .f2_head {
     color: rgba(255, 255, 255, 0.7);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
     width: 80%;
 }
 
@@ -265,6 +304,8 @@ header {
     justify-content: center;
     font-size: 1.3rem;
     color: rgba(255, 255, 255, 0.8);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
 }
 
 .sevan-day {
@@ -278,6 +319,7 @@ header {
     align-items: center;
     font-weight: 600;
     color: rgba(255, 255, 255, 0.7);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 1.5rem;
 }
 
@@ -309,6 +351,8 @@ header {
     width: 80%;
     font-weight: 500;
     color: rgba(255, 255, 255, 0.7);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
     font-size: 1rem;
     display: flex;
     justify-content: center;
@@ -318,6 +362,7 @@ header {
 .sevan-day-forecast-info .mid {
     height: 50%;
     color: #ffffff; /* White text */
+
 }
 
 .sevan-day-forecast-info .tail {
@@ -325,6 +370,8 @@ header {
     width: 80%;
     font-size: 1rem;
     color: rgba(255, 255, 255, 0.8); /* Slightly transparent white */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -343,3 +390,162 @@ footer {
     align-items: center;
     backdrop-filter: blur(10px); /* Glassy effect */
 }
+
+
+
+@media (max-width: 400px) {
+
+    body{
+        background-image: url('IMG_7262.JPG');
+        background-position: center; 
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        height: 100vh;
+        margin: 0;
+
+    }
+
+    header{
+      height: 20vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      /* gap: rem; */
+      
+    }
+ 
+    .headerDiv{
+        
+        display: flex;
+        align-items:center;
+        justify-content: center;
+
+    }
+    .headerDiv .day-night{
+        display: none;
+    }
+
+   .f1{
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+   }
+   
+   .f1 .f1-column{
+    
+    width: 100%;
+   }
+   .f1 .f1-column .mark-copy{
+    height: 80%;
+    width: 28%;
+   }
+
+   .mark-copy .head{
+    font-size: 0.9rem;
+   }
+   .mark-copy .mid{
+    font-size: 1rem;
+   }
+   .mark-copy .tail{
+    font-size: 0.7rem;
+   }
+
+   .hour-weather-001{
+    height: 22vh;
+    
+   }
+
+   .hour-weather-001 .para{
+    font-size: 1rem;
+    height: 20%;
+
+   }
+   
+   .hour-weather-001 .hour-weather-002{
+    gap: 1rem;
+    height: 95%;
+   }
+
+   .hour-weather-001 .hour-weather-003{
+    height:100% ;
+    min-width: 24%;
+   }
+   
+
+   .hour-weather-003 .head{
+    font-size: .8rem;
+   }
+
+   .hour-weather-003 .tail{
+    font-size: .9rem;
+   }
+    
+   .info{
+    margin-top: 1.5rem;
+    height: 120vh;
+    flex-direction: column;
+    gap: 1rem;
+   
+   }
+    
+   .info-div{
+    height: 30%;
+    width: 95%;
+   }
+
+   .info-div .info-heading{
+    font-size: 1rem;
+   }
+   
+   .f2 .f2_head{
+    font-size: 0.8rem;
+   }
+
+   .f2 .f2_mid{
+    font-size: 1rem;
+   }
+
+   .sevan-day{
+    height: 25vh;
+   }
+   .sevan-day .sevan-day-para{
+    font-size: 1rem;
+    height: 20%;
+   }
+
+   .sevan-day .sevan-day-forecast{
+    padding: 1rem;
+    height: 80%;
+    overflow-x: auto;
+    gap: 1rem;
+    scrollbar-width: none
+   }
+
+   .sevan-day-forecast::-webkit-scrollbar{
+    display: none;
+   }
+
+   .sevan-day .sevan-day-forecast-info{
+    height:95% ;
+    min-width: 25%;
+
+   }
+
+   .sevan-day-forecast-info .head{
+    width: 100%;
+    font-size: 0.6rem;
+    
+   }
+   .sevan-day-forecast-info .mid{
+    height: 25px;
+    width: 25px;
+   }
+   .sevan-day-forecast-info .tail{
+    font-size: 0.9rem;
+   }
+
+
+   
+}
+
