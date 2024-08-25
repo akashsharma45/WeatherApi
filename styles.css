@@ -583,6 +583,7 @@ footer {
 
    .sevan-day-forecast-info .head{
     width: 100%;
+    height: 25%;
     font-size: 0.6rem;
     
    }
@@ -591,7 +592,9 @@ footer {
     width: 25px;
    }
    .sevan-day-forecast-info .tail{
-    font-size: 0.9rem;
+    height: 50%;
+    font-size: 0.8rem;
+    font-weight: 600;
    }
 
 
