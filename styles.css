@@ -578,6 +578,7 @@ footer {
    .sevan-day .sevan-day-forecast-info{
     height:95% ;
     min-width: 26%;
+       margin-left:1rem;
 
    }
 
