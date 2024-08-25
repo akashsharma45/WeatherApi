@@ -480,6 +480,8 @@ footer {
 
 
    .f1{
+
+    background-color:none;
     height: 40vh;
     display: flex;
     flex-direction: column;
