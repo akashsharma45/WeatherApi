@@ -200,16 +200,16 @@ function dayNight(){
     }
 }
 
-x=true;
+x=false;
 function iphone13(){
     if(x){
         document.body.style.backgroundImage = "url('')";
-        document.getElementById('btn').textContent = `🌙`;
+        document.getElementById('btn').textContent = `🌞`;
         x=!x;
     }
     else{
         document.body.style.backgroundImage = "url('587601.jpg')";
-        document.getElementById('btn').textContent = `🌞`;
+        document.getElementById('btn').textContent = `🌙`;
         x=!x;
     }
 }
