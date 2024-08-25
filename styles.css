@@ -569,6 +569,8 @@ footer {
     overflow-x: auto;
     gap: 1rem;
     scrollbar-width: none
+        margin-left:1rem;
+
    }
 
    .sevan-day-forecast::-webkit-scrollbar{
@@ -578,7 +580,7 @@ footer {
    .sevan-day .sevan-day-forecast-info{
     height:95% ;
     min-width: 26%;
-       margin-left:1rem;
+      
 
    }
 
