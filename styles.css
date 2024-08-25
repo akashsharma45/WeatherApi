@@ -598,7 +598,11 @@ footer {
     font-size: 0.8rem;
     font-weight: 600;
    }
-
+   footer {
+    height: 5vh;
+    font-size: .7rem;
+    color: rgba(255, 255, 255, 0.8); /* Slightly transparent white */
+          }
 
    
 }
