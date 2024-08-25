@@ -569,7 +569,7 @@ footer {
     overflow-x: auto;
     gap: 1rem;
     scrollbar-width: none
-        margin-left:1rem;
+    padding-left:2rem;
 
    }
 
