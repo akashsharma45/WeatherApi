@@ -96,6 +96,12 @@ header h1{
     transform: translateY(-2px); /* Lift effect on hover */
 }
 
+
+#btn{
+    display: none;
+}
+
+
 .f1 {
     height: 30vh;
     display: flex;
@@ -403,10 +409,44 @@ footer {
         height: 100vh;
         margin: 0;
 
+        #btn {
+            display: block;
+            z-index: 1000;
+           
+         
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            border: none;
+            cursor: pointer;
+            font-size: 1rem;
+            transition: background 0.3s ease-in-out, transform 0.2s;
+          
+        }
+
+        #btn {
+            padding: none;
+            margin-left: none;
+            border-radius: none;
+            background: none; /* Semi-transparent white */
+            color: none;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        
+                 }
+        
+        .search-box button:hover, .day-night:hover {
+            background:none; /* More opaque white */
+            transform:none; /* Lift effect on hover */
+        }
+        
+        
+    
+
     }
+    
+    
+
 
     header{
-      height: 20vh;
+      height: 24vh;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -414,17 +454,26 @@ footer {
       /* gap: rem; */
       
     }
- 
+   
+
+
+
+
     .headerDiv{
-        
-        display: flex;
-        align-items:center;
+        /* align-items: center; */
         justify-content: center;
+        margin-top: 0.5rem;
+    }
+    
+    .headerDiv .day-night{
+        
+       display: none;
 
     }
-    .headerDiv .day-night{
-        display: none;
-    }
+
+    
+
+
 
    .f1{
     height: 40vh;
@@ -469,7 +518,7 @@ footer {
 
    .hour-weather-001 .hour-weather-003{
     height:100% ;
-    min-width: 24%;
+    min-width: 25%;
    }
    
 
@@ -528,7 +577,7 @@ footer {
 
    .sevan-day .sevan-day-forecast-info{
     height:95% ;
-    min-width: 25%;
+    min-width: 26%;
 
    }
 
