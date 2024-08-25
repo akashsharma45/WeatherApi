@@ -199,3 +199,18 @@ function dayNight(){
         x=!x;
     }
 }
+
+let y=true;
+function iphone13(){
+    if(y){
+        document.body.style.backgroundImage = "url('')";
+        document.getElementById('btn').textContent = `🌞`;
+        y=!y;
+    }
+    else{
+        document.body.style.backgroundImage = "url('587601.jpg')";
+        document.getElementById('btn').textContent = `🌙`;
+        y=!y;
+    }
+}
+
