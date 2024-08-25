@@ -401,8 +401,10 @@ footer {
 
 @media (max-width: 400px) {
 
+      background-image: url('abrams.jpg');
+
     body{
-        background-image: url('Char_Gallery_Batman_theBatman2022_6219aca46b90e9.75519854.jpg');
+      
         background-size: contain;
         background-position: center; 
         background-repeat: no-repeat;
