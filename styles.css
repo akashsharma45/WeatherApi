@@ -401,10 +401,10 @@ footer {
 
 @media (max-width: 400px) {
 
-      background-image: url('abrams.jpg');
+   
 
     body{
-      
+        background-image: url('abrams.jpg');
         background-size: contain;
         background-position: center; 
         background-repeat: no-repeat;
