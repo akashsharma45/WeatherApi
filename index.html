@@ -5,23 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather Forecast</title>
     <link rel="stylesheet" href="styles.css">
+    <!-- <link rel="stylesheet" href="iPhone13.css"> -->
 </head>
 <body>
     <header>
-        <div>
+        <div class="tit">
           <h1 id ="title">Weather Forecast</h1>
         </div>
         <div class="headerDiv">
           <div class="search-box">
             <input type="text" placeholder="Enter city name" id="city-input">
-            <button onclick="getWeather()">Get Weather</button>
+            <button onclick="getWeather()">Search</button>
           </div>
           <button class="day-night" id="night-day" onclick="dayNight()">Light Theme</button>
         </div>
     </header>
  
 <div class="f1">
-
+<div class="f1-column">
         <div class="mark-copy">
             <p class="head">location</p>
             <h2 id="city-name" class="mid">City</h2>
@@ -39,7 +40,8 @@
             <h2 id="wind_speed" class="mid">Speed</h2>
             <p id="wind_dir" class="tail">NA</p>
         </div>
-      
+</div> 
+<div class="f1-column"> 
         <div class="mark-copy">
             <p class="head">Pressure</p>
             <h2 id="pressure" class="mid">Pressure</h2>
@@ -57,7 +59,7 @@
             <h2 id="visibility" class="mid">Visible</h2>
             <p class="tail">NA</p>
         </div>
-   
+</div>  
 </div>
 
 <div class="hour-weather-001">
