@@ -200,7 +200,7 @@ function dayNight(){
     }
 }
 
-x=false;
+x=true;
 function iphone13(){
     if(x){
         document.body.style.backgroundImage = "url('')";
