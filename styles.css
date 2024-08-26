@@ -389,7 +389,8 @@ header h1{
 
 footer {
     height: 7vh;
-    color: #ffffff; /* White text */
+    color: rgba(255, 255, 255, 0.8); /* Slightly transparent white */
+
     background: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
     display: flex;
     justify-content: center;
@@ -401,12 +402,8 @@ footer {
 
 @media (max-width: 400px) {
 
-   
-
     body{
-        background-color:#000000;
-        background-image: url('abrams.jpg');
-        background-size: contain;
+        background-image: url('IMG_7262.JPG');
         background-position: center; 
         background-repeat: no-repeat;
         background-attachment: fixed;
@@ -480,8 +477,7 @@ footer {
 
 
    .f1{
-
-    background-color:none;
+    
     height: 40vh;
     display: flex;
     flex-direction: column;
@@ -575,7 +571,6 @@ footer {
     overflow-x: auto;
     gap: 1rem;
     scrollbar-width: none
-
    }
 
    .sevan-day-forecast::-webkit-scrollbar{
@@ -585,7 +580,8 @@ footer {
    .sevan-day .sevan-day-forecast-info{
     height:95% ;
     min-width: 26%;
-      
+
+    
 
    }
 
@@ -604,11 +600,13 @@ footer {
     font-size: 0.8rem;
     font-weight: 600;
    }
+
    footer {
     height: 5vh;
     font-size: .7rem;
     color: rgba(255, 255, 255, 0.8); /* Slightly transparent white */
-          }
+ 
+}
 
    
 }
