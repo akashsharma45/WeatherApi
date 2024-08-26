@@ -532,6 +532,7 @@ footer {
    }
     
    .info{
+    background-color: none;
     margin-top: 1.5rem;
     height: 120vh;
     flex-direction: column;
