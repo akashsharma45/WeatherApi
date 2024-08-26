@@ -189,12 +189,12 @@ let x=true;
 
 function dayNight(){
     if(x){
-        document.body.style.backgroundImage = "url('')";
+        document.body.style.backgroundImage = "url('587601.jpg')";
         document.getElementById('night-day').textContent = `Dark`;
         x=!x;
     }
     else{
-        document.body.style.backgroundImage = "url('587601.jpg')";
+        document.body.style.backgroundImage = "url('')";
         document.getElementById('night-day').textContent = `Light`;
         x=!x;
     }
@@ -203,15 +203,14 @@ function dayNight(){
 x=false;
 function iphone13(){
     if(x){
-        document.body.style.backgroundImage = "url('')";
+        document.body.style.backgroundImage = "url('IMG_7262.JPG')";
         document.getElementById('btn').textContent = `🌙`;
         x=!x;
     }
     else{
-        document.body.style.backgroundImage = "url('IMG_7262.JPG')";
+        document.body.style.backgroundImage = "url('')";
         document.getElementById('btn').textContent = `🌞`;
         x=!x;
     }
 }
-
 
