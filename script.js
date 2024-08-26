@@ -194,7 +194,7 @@ function dayNight(){
         x=!x;
     }
     else{
-        document.body.style.backgroundImage = "url('')";
+        document.body.style.backgroundImage = "url('black.jpg')";
         document.getElementById('night-day').textContent = `Light`;
         x=!x;
     }
@@ -208,7 +208,7 @@ function iphone13(){
         x=!x;
     }
     else{
-        document.body.style.backgroundImage = "url('')";
+        document.body.style.backgroundImage = "url('black.jpg')";
         document.getElementById('btn').textContent = `🌞`;
         x=!x;
     }
